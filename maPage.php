@@ -124,7 +124,7 @@
              echo "Ce joueur est majeur";
          }
          switch($age){
-            case $age > 18 : echo "Il est majeur."; //le supérieur à ne fonctionne pas mais l'inférieur à oui Oo???
+            case $age > 18 : echo "Il est majeur.";
              case 18 : echo "Il vient d'être majeur."; //on préfère le if pour les > < >= >= === etc.
              case $age < 18 : echo "Il est mineur.";
           
